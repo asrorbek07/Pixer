@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+        url("../fonts/OpenSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+        url("../fonts/OpenSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+html{
+    box-sizing: border-box;
+}
+*
+*::after, *::before{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    background-color: white;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+img{
+    text-align: center;
+    max-width: 100%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 1100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.main-header{
+    background-color: #ffffff;
+}
+.main-nav{
+padding: 8px 0;
+margin: 0;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.site-logo{
+    padding: 0;
+    margin: auto 0;
+}
+.main-list{
+margin-left: auto;
+list-style-type: none;
+display: flex;
+align-items: center;
+padding: 0;
+margin-top: auto;
+margin-bottom: auto;
+margin-right:24px ;
+
+}
+.list-item{
+margin: 0;
+margin-right: 32px;
+font-size: 15px;
+list-style-type: none;
+}
+.list-item:nth-child(6){
+margin-right: 0;
+}
+.list-link{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.btn{
+    display: block;
+    margin-right:0;
+    padding: 8px 16px;
+    background: #00BAFC;
+    border-radius: 5px;
+    border: none;
+}
+.aside-padding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.about{
+    width: 465px;
+}
+.about-title{
+font-weight: bold;
+font-size: 30px;
+line-height: 130%;
+margin: 0;
+margin-bottom: 16px;
+padding: 0;
+}
+.about-text{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.about-img{
+    margin-left: auto;
+}
