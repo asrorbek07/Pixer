@@ -303,3 +303,46 @@ select{
 .align-item{
     align-self: center;
 }
+
+/* footer */
+
+.extra{
+    background-color: #191919;
+    color: white;
+    align-items: flex-start;
+}
+.site-copy-box{
+    width: 320px;
+    margin-right: 100px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+}
+.copy-text{
+    line-height: 150%;
+}
+.site-footer-nav{
+    margin-right: 90px;
+}
+.footer-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    list-style-type: none;
+
+}
+.item-link{
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 8px;
+    color: white;
+}
