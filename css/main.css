@@ -106,6 +106,7 @@ margin-right: 0;
     font-weight: bold;
     color: white;
     text-decoration: none;
+    line-height: 24px;
 }
 .aside-padding{
     padding-top: 80px;
@@ -267,4 +268,38 @@ padding: 0;
 }
 .how-we-work-footer{
     text-align: center;
+}
+.order-form{
+    background-color: #00bafc;
+    color: #ffffff;
+}
+form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: black;
+    padding: 24px;
+    
+}
+input{
+    padding: 16px;
+    
+    margin: 0;
+    margin-bottom: 16px;
+    background: #F3F3F3;
+    border-radius: 5px;
+}
+select{
+    padding: 16px;
+    margin: 0;
+    margin-bottom: 16px;
+    background: #F3F3F3;
+    border-radius: 5px;
+}
+.align-item{
+    align-self: center;
 }
