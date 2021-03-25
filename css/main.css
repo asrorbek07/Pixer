@@ -86,7 +86,7 @@ margin-right:24px ;
 .list-item{
 margin: 0;
 margin-right: 32px;
-font-size: 15px;
+
 list-style-type: none;
 }
 .list-item:nth-child(6){
@@ -96,6 +96,7 @@ margin-right: 0;
     text-decoration: none;
     display: block;
     color: black;
+    font-size: 15px;
 }
 .btn{
     margin-right:0;
